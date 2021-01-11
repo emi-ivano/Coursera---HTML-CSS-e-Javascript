@@ -1,3 +1,8 @@
+* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+}
 body {
 	font-size: 16px;
 	font-family: 'Yusei Magic', sans-serif;
@@ -50,8 +55,9 @@ div p {
 }
 
 #main-content {
-	margin: 10px 10px 10px;
+	margin-right: 20px;
 	text-align: center;	
+	width: 100%;
 }
 #chicken {
 	background-color: #7FFFD4;
