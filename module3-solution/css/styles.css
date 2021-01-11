@@ -53,7 +53,9 @@ div span {
 div p {
 	margin: 20px;
 }
-
+p a {
+	text-decoration: underline;
+}
 #main-content {
 	margin-right: 20px;
 	text-align: center;	
@@ -72,3 +74,17 @@ div p {
 }
 
 /* END HOME PAGE */
+
+/* Medium and large devices */
+@media (min-width: 992px) {
+	#chicken, #beef, #sushi {
+		height: 1260px;
+	}
+}
+
+/* Small devices */
+@media (min-width: 768px) and (max-width: 991px) {
+	#chicken, #beef {
+		height: 1040px;
+	}
+}
