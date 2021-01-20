@@ -280,7 +280,6 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
         return html;
     }
 
-
     // Appends portion name in parens if it exists
     function insertItemPortionName(html, portionPropName, portionValue) {
         // If not specified, return original string
